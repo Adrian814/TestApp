@@ -1,3 +1,3 @@
 <?php
-phpinfo();
+echo "<p>PHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHP</p>\n";
 ?>
