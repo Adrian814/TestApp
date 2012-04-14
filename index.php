@@ -1,3 +1,3 @@
 <?php
-echo "<p>PHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHPPHP</p>\n";
+echo 'Ein Text der ausgegeben wird';
 ?>
