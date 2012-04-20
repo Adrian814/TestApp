@@ -9,13 +9,13 @@
 			$v1 = 'Twinkle';
 			$v2 = 'star';
 			
-			echo 'Twinkle, Twinkle little star.';
+			echo "Twinkle, Twinkle little star.\n";
 			
-			echo $v1 . ',' . $v1 . 'little' . $v2 . '.';
+			echo $v1 . "," . $v1 . "little" . $v2 . ".\n";
 			
-			$v1 = 'Burn';
-			$v2 = 'fire';
-			echo $v1 . ',' . $v1 . 'little' . $v2 . '.';						
+			$v1 = "Burn";
+			$v2 = "fire";
+			echo $v1 . "," . $v1 . "little" . $v2 . ".\n";						
 		?>   
    </BODY>
 </HTML>
