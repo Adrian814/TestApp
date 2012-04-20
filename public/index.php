@@ -1,9 +1,14 @@
-<?php
-echo "Wieder was ausgeben";
-/* Irgendein Kommentar der
-sich über mehrere
-Zeilen
-erstreckt bis zum
-entsprechenden stopzeichen */
-echo "Und wieder im PHP-Modus drin";
-?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+   <HEAD>
+      <TITLE>My first HTML document</TITLE>
+   </HEAD>
+   <BODY>
+   		<?php
+			echo 'Hello World!';
+		?>   
+   </BODY>
+</HTML>
+
+
