@@ -9,12 +9,20 @@
 			$x = 10;
 			$y = 7;
 			
-			echo "Test";
-			echo $x . " + " . $y . " = " . $x + $y . "<br/>";
-			echo $x . " - " . $y . " = " . $x - $y . "<br/>";
-			echo $x . " * " . $y . " = " . $x * $y . "<br/>";
-			echo $x . " / " . $y . " = " . $x / $y . "<br/>";
-			echo $x . " % " . $y . " = " . $x % $y . "<br/>";			
+			$result=$x+$y; 
+			echo "$x + $y = $result<br />";   
+
+			$result=$x-$y; 
+			echo "$x - $y = $result<br />";   
+
+			$result=$x*$y; 
+			echo "$x * $y = $result<br />";   
+
+			$result=$x/$y; 
+			echo "$x / $y = $result<br />";   
+
+			$result=$x%$y; 
+			echo "$x % $y = $result<br />"			
 		?>   
    </BODY>
 </HTML>
