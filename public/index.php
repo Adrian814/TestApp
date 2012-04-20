@@ -6,18 +6,8 @@
    </HEAD>
    <BODY>
    		<?php
-			$v1 = "Harry";
-			$v2 = 28;
-			$v3 = NULL;
-			
-			var_dump($v1);
-			echo "<br />";
-			echo $v1;
-			echo "<br />";
-			var_dump($v2);
-			echo "<br />";
-			var_dump($v3);
-			echo "<br />";
+			$around = "around";
+			echo 'What goes ' . $around . ', comes ' . $around . '.<br />'
 		?>
    </BODY>
 </HTML>
