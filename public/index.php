@@ -6,16 +6,14 @@
    </HEAD>
    <BODY>
    		<?php
-			$v1 = 'Twinkle';
-			$v2 = 'star';
+			$x = 10;
+			$y = 7;
 			
-			echo "Twinkle, Twinkle little star.<br/>";
-			
-			echo $v1 . ", " . $v1 . " little " . $v2 . ".<br/>";
-			
-			$v1 = "Burn";
-			$v2 = "fire";
-			echo $v1 . ", " . $v1 . " little " . $v2 . ".<br/>";						
+			echo $x . " + " . $y . " = " . $x + $y;
+			echo $x . " - " . $y . " = " . $x - $y;
+			echo $x . " * " . $y . " = " . $x * $y;
+			echo $x . " / " . $y . " = " . $x / $y;
+			echo $x . " % " . $y . " = " . $x % $y;			
 		?>   
    </BODY>
 </HTML>
