@@ -6,22 +6,15 @@
    </HEAD>
    <BODY>
    		<?php
-			$variable = 8;
+			$v1 = "Harry";
+			$v2 = 28;
+			$v3 = "";
 			
-			echo "Value is now $variable<br/>";
-			$variable += 2;
-			echo "Add 2. Value is now $variable<br/>";
-			$variable -= 4;
-			echo "Subtract 4. Value is now $variable<br/>";
-			$variable *= 5;
-			echo "Multiply by 5. Value is now $variable<br/>";
-			$variable /= 3;
-			echo "Divide by 3. Value is now $variable<br/>";
-			$variable++;
-			echo "Increment value by one. Value is now $variable<br/>";
-			$variable--;
-			echo "Decrement value by one. Value is now $variable<br/>";	
-		?>   
+			var_dump($v1);
+			echo $v1;
+			var_dump($v2);
+			var_dump($v3);
+		?>
    </BODY>
 </HTML>
 
