@@ -12,11 +12,11 @@
 			$v4 = 5;
 			$v5 = NULL;
 			
-			echo "Value is $v1.<br/>"
-			echo "Value is $v2.<br/>"
-			echo "Value is $v3.<br/>"
-			echo "Value is $v4.<br/>"
-			echo "Value is $v5.<br/>"
+			echo "Value is $v1.<br/>";
+			echo "Value is $v2.<br/>";
+			echo "Value is $v3.<br/>";
+			echo "Value is $v4.<br/>";
+			echo "Value is $v5.<br/>";
 		?>
    </BODY>
 </HTML>
